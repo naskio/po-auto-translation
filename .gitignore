@@ -1,0 +1,45 @@
+# Please don't edit or remove this file unless it is a necessary
+
+#IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.npm/
+
+# testing
+/coverage
+template/src/__tests__/__snapshots__/
+
+# production
+/build
+
+# misc
+.DS_Store
+.DS_STORE
+
+#local env
+.env.local
+.env.development.local
+.env.test.local
+# .env.production.local
+
+#logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log
+*.log*
+/.changelog
+
+# others
+chrome-user-data
+*.tgz
+
+# DOCUMENTATION (find it on the artifacts on gitlab)
+DOCUMENTATION.md
