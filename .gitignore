@@ -43,3 +43,5 @@ chrome-user-data
 
 # DOCUMENTATION (find it on the artifacts on gitlab)
 DOCUMENTATION.md
+
+*.po
