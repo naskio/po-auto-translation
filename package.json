@@ -1,0 +1,20 @@
+{
+  "name": "po-auto-translation",
+  "version": "1.0.0",
+  "description": "Process to translate PO files automatically for FREE using google translate, the script is written using JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "po files",
+    "Translations",
+    "po_auto_translation"
+  ],
+  "author": "Mehdi Nassim KHODJA",
+  "license": "MIT",
+  "dependencies": {
+    "po-csv": "^1.0.2"
+  }
+}
