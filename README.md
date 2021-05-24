@@ -1,40 +1,41 @@
 # po-auto-translation
-Process to translate PO files automatically for FREE using google translate, the script is written using JavaScript
+Process to translate PO files automatically for FREE using Google Translate, the script is written using JavaScript
 
 ## Requirements
 
-node.js
+- Node.js (10+)
 
 ## Steps
 
-1. clone this repo
+1. Clone this repository
     ```shell script
-    git clone git@github.com:MehdiNassim/po-auto-translation.git
+    git clone git@github.com:naskio/po-auto-translation.git
     ```
 
-1. install dependencies
+1. Install dependencies
     ```shell script
-    yarn install
+    yarn install 
+    # or
+    npm install
     ``` 
 
-1. convert your PO file into csv file
+1. Convert your PO file into CSV using the following command
     ```shell script
     node index.js untranslated_XX.po > untranslated_XX.csv
     ``` 
 
-1. upload ```untranslated_XX.csv``` to Google Sheet
+1. Upload ```untranslated_XX.csv``` to Google Sheet
 
-1. use the formula
+1. Use the formula
     ```
     =GOOGLETRANSLATE(A2;"en";"ar")
     ```
 
-1. convert translated columns to text using: 
-    - Copy the column then paste values only
+1. Convert the translated columns to text using ```Copy the column then paste values only```
 
-1. export file to csv ```translated_XX.csv``` (download csv)
+1. Export file to CSV ```translated_XX.csv``` (download CSV)
 
-1. convert file to PO file
+1. Convert the CSV file to PO file using the following command
     ```shell script
     node index.js untranslated_XX.po translated_XX.csv > translated_XX.po
     ``` 
